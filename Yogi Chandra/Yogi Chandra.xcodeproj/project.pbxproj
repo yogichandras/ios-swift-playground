@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB8254A023F16C3E00A7EAD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB82549F23F16C3E00A7EAD2 /* AppDelegate.swift */; };
+		EB8254A223F16C3E00A7EAD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8254A123F16C3E00A7EAD2 /* SceneDelegate.swift */; };
+		EB8254A423F16C3E00A7EAD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8254A323F16C3E00A7EAD2 /* ContentView.swift */; };
+		EB8254A623F16C4100A7EAD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8254A523F16C4100A7EAD2 /* Assets.xcassets */; };
+		EB8254A923F16C4100A7EAD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8254A823F16C4100A7EAD2 /* Preview Assets.xcassets */; };
+		EB8254AC23F16C4100A7EAD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8254AA23F16C4100A7EAD2 /* LaunchScreen.storyboard */; };
+		EB8254B523F1713200A7EAD2 /* Sriracha-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB8254B423F16EA300A7EAD2 /* Sriracha-Regular.ttf */; };
+		EB8254B723F17E8000A7EAD2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8254B623F17E8000A7EAD2 /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB82549C23F16C3E00A7EAD2 /* Yogi Chandra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yogi Chandra.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB82549F23F16C3E00A7EAD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB8254A123F16C3E00A7EAD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB8254A323F16C3E00A7EAD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB8254A523F16C4100A7EAD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB8254A823F16C4100A7EAD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB8254AB23F16C4100A7EAD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB8254AD23F16C4100A7EAD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB8254B423F16EA300A7EAD2 /* Sriracha-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sriracha-Regular.ttf"; sourceTree = "<group>"; };
+		EB8254B623F17E8000A7EAD2 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB82549923F16C3E00A7EAD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB82549323F16C3E00A7EAD2 = {
+			isa = PBXGroup;
+			children = (
+				EB82549E23F16C3E00A7EAD2 /* Yogi Chandra */,
+				EB82549D23F16C3E00A7EAD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB82549D23F16C3E00A7EAD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB82549C23F16C3E00A7EAD2 /* Yogi Chandra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB82549E23F16C3E00A7EAD2 /* Yogi Chandra */ = {
+			isa = PBXGroup;
+			children = (
+				EB8254B323F16E8B00A7EAD2 /* fonts */,
+				EB82549F23F16C3E00A7EAD2 /* AppDelegate.swift */,
+				EB8254A123F16C3E00A7EAD2 /* SceneDelegate.swift */,
+				EB8254A323F16C3E00A7EAD2 /* ContentView.swift */,
+				EB8254A523F16C4100A7EAD2 /* Assets.xcassets */,
+				EB8254AA23F16C4100A7EAD2 /* LaunchScreen.storyboard */,
+				EB8254AD23F16C4100A7EAD2 /* Info.plist */,
+				EB8254A723F16C4100A7EAD2 /* Preview Content */,
+				EB8254B623F17E8000A7EAD2 /* InfoView.swift */,
+			);
+			path = "Yogi Chandra";
+			sourceTree = "<group>";
+		};
+		EB8254A723F16C4100A7EAD2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB8254A823F16C4100A7EAD2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB8254B323F16E8B00A7EAD2 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EB8254B423F16EA300A7EAD2 /* Sriracha-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB82549B23F16C3E00A7EAD2 /* Yogi Chandra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8254B023F16C4100A7EAD2 /* Build configuration list for PBXNativeTarget "Yogi Chandra" */;
+			buildPhases = (
+				EB82549823F16C3E00A7EAD2 /* Sources */,
+				EB82549923F16C3E00A7EAD2 /* Frameworks */,
+				EB82549A23F16C3E00A7EAD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yogi Chandra";
+			productName = "Yogi Chandra";
+			productReference = EB82549C23F16C3E00A7EAD2 /* Yogi Chandra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB82549423F16C3E00A7EAD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = yogichandras;
+				TargetAttributes = {
+					EB82549B23F16C3E00A7EAD2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EB82549723F16C3E00A7EAD2 /* Build configuration list for PBXProject "Yogi Chandra" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB82549323F16C3E00A7EAD2;
+			productRefGroup = EB82549D23F16C3E00A7EAD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB82549B23F16C3E00A7EAD2 /* Yogi Chandra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB82549A23F16C3E00A7EAD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8254B523F1713200A7EAD2 /* Sriracha-Regular.ttf in Resources */,
+				EB8254AC23F16C4100A7EAD2 /* LaunchScreen.storyboard in Resources */,
+				EB8254A923F16C4100A7EAD2 /* Preview Assets.xcassets in Resources */,
+				EB8254A623F16C4100A7EAD2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB82549823F16C3E00A7EAD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8254B723F17E8000A7EAD2 /* InfoView.swift in Sources */,
+				EB8254A023F16C3E00A7EAD2 /* AppDelegate.swift in Sources */,
+				EB8254A223F16C3E00A7EAD2 /* SceneDelegate.swift in Sources */,
+				EB8254A423F16C3E00A7EAD2 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB8254AA23F16C4100A7EAD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB8254AB23F16C4100A7EAD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB8254AE23F16C4100A7EAD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB8254AF23F16C4100A7EAD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB8254B123F16C4100A7EAD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Yogi Chandra/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Yogi Chandra/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "id.asynchronous.Yogi-Chandra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB8254B223F16C4100A7EAD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Yogi Chandra/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Yogi Chandra/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "id.asynchronous.Yogi-Chandra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB82549723F16C3E00A7EAD2 /* Build configuration list for PBXProject "Yogi Chandra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8254AE23F16C4100A7EAD2 /* Debug */,
+				EB8254AF23F16C4100A7EAD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB8254B023F16C4100A7EAD2 /* Build configuration list for PBXNativeTarget "Yogi Chandra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8254B123F16C4100A7EAD2 /* Debug */,
+				EB8254B223F16C4100A7EAD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB82549423F16C3E00A7EAD2 /* Project object */;
+}
